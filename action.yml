@@ -1,0 +1,14 @@
+name: 'LibreCores CI'
+description: 'Base action to run LibreCores CI'
+inputs:
+  command:
+    description: 'Command to run'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
+branding:
+  icon: 'cpu'
+  color: 'green'
