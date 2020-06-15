@@ -2,6 +2,8 @@
 
 This runs a command in the [LibreCores CI docker container](https://github.com/librecores/ci-docker-image).
 
+We recommend using FuseSoC for your project and the [LibreCores CI FuseSoC action](https://github.com/marketplace/actions/librecores-ci-with-fusesoc).
+
 It is still in an early development phase, please feel free to open an issue with your suggestion!
 
 ## Inputs
