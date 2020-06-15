@@ -1,3 +1,6 @@
+# Copyright 2020, LibreCores CI contributors
+# SPDX-License-Identifier: MIT
+
 name: 'LibreCores CI'
 description: 'Base action to run LibreCores CI'
 inputs:
